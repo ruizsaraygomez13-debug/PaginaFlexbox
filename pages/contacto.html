@@ -1,35 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nosotros</title>
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>Diseño y Multimedia</h1>
-        <nav class="menu">
+
+    <header class="menu">
+
+        <nav>
+
+            <h2>Diseño <span>Multimedia</span></h2>
+
             <ul>
-                <h2>Diseño</h2>
-                <h2>Multimedia</h2>
-                <li><a href="../index.html"> Inicio</a></li>
-                <li><a href="nosotros.html"> Nosotros</a></li>
-                <li><a href="servicios.html"> Servicios</a></li>
-                <li><a href="contacto.html"> Contacto</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
+
         </nav>
+
         <hr class="linea">
+
     </header>
+
     <main>
+
         <div class="suscribete">
-            <ul>
-                <h3>Suscríbete a nuetro boletín</h3>
-                <form action="suscribirse.php" method="post">
-                    <label for="email">Correo electrónico:</label>
-                    <input type="email" id="email" name="email" required><br><br>
-                    <input type="submit" value="Suscribirse">
-                </form>
-            </ul>
+
+            <h3>Suscríbete a nuestro boletín</h3>
+
+            <form class="formulario" action="suscribirse.php" method="post">
+
+                <input type="email" id="email" name="email" placeholder="Ingrese el Email..." required>
+
+                <input type="submit" value="Suscribirse">
+
+            </form>
+
         </div>
+
+        <div class="contenedor">
+
+            <div class="izquierda">
+
+                <h2>Contacto</h2>
+
+                <form class="contacto">
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+
+                    <label for="email2">Email</label>
+                    <input type="email" id="email2" name="email2" placeholder="Ingresa tu email" required>
+
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" id="telefono" name="telefono" placeholder="Ingresa tu teléfono" required>
+
+                    <label for="celular">Celular</label>
+                    <input type="text" id="celular" name="celular" placeholder="Ingresa tu celular" required>
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+
+                    <input type="submit" value="Enviar">
+
+                </form>
+
+            </div>
+
+            <div class="derecha">
+
+                <div class="caja">
+
+                    <h2>Que hacemos</h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Donec varius auctor lacus nec feugiat.
+                        Phasellus sit amet ex ipsum.
+                        Praesent pharetra tincidunt tempor.
+                        Etiam velit eros, dapibus eget porta in,
+                        lacinia et magna.
+                    </p>
+                </div>
+                <div class="mapa">
+                    <img class="mapa" src="../assets/images/mapaGoogle.png" alt="Mapa">
+                </div>
+            </div>
+
+    </main>
+
+    <footer>
+
+        <p>
+            Graphel Desarrollo Web, Copyright © 2017
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

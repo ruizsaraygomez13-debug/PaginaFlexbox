@@ -1,70 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nosotros</title>
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>Diseño y Multimedia</h1>
-        <nav class="menu">
+
+    <header class="menu">
+
+        <nav>
+
+            <h2>Diseño <span>Multimedia</span></h2>
+
             <ul>
-                <h2>Diseño</h2>
-                <h2>Multimedia</h2>
-                <li><a href="../index.html"> Inicio</a></li>
-                <li><a href="nosotros.html"> Nosotros</a></li>
-                <li><a href="servicios.html"> Servicios</a></li>
-                <li><a href="contacto.html"> Contacto</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
+
         </nav>
+
         <hr class="linea">
+
     </header>
+
     <main>
+
         <div class="suscribete">
-            <ul>
-                <h3>Suscríbete a nuetro boletín</h3>
-                <form action="suscribirse.php" method="post">
-                    <label for="email">Correo electrónico:</label>
-                    <input type="email" id="email" name="email" required><br><br>
-                    <input type="submit" value="Suscribirse">
-                </form>
-            </ul>
+
+            <h3>Suscríbete a nuestro boletín</h3>
+
+            <form class="formulario" action="suscribirse.php" method="post">
+
+                <input type="email" id="email" name="email" placeholder="Ingrese el Email..." required>
+
+                <input type="submit" value="Suscribirse">
+
+            </form>
+
         </div>
 
-        <div>
-            <div>
-                <P>
+        <div class="contenedor">
 
-                </P>
+            <div class="izquierda">
+
+                <h2>Nosotros</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat.
+                    Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget
+                    porta in, lacinia et magna. Nam eget eros non orci consectetur congue at ac augue. Proin eget arcu
+                    in enim feugiat ultricies. Curabitur maximus metus nec metus pretium viverra at et orci. Integer
+                    hendrerit ante ut placerat cursus.
+                </p>
+
+                <p class="caja">
+                    Aliquam eget pharetra diam. Nulla placerat lorem at turpis tempor, vel ultrices dui tincidunt.
+                    Proin quis egestas lorem. Mauris vehicula lectus odio, sit amet dictum justo feugiat a. Praesent id
+                    dictum lacus. Sed ullamcorper id erat ut dictum. Fusce porttitor lorem sapien, in aliquet sapien
+                    convallis et. Donec nec mauris nulla. Curabitur cursus semper odio, et hendrerit ante. Nunc at
+                    cursus ante. Maecenas gravida ligula ut efficitur suscipit. Nulla id turpis varius, pretium nunc
+                    sed, fermentum sem. Sed lacinia nunc non interdum pellentesque.
+                </p>
+
+                <img src="../assets/images/891.jpg" alt="Imagen">
 
             </div>
-                <P>
 
-                </P>
+            <div class="derecha">
 
-            <div>
-                <P>
+                <h2>Que hacemos</h2>
 
-                </P>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-                <img src="../images/891.jpg" alt="imagen" </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat.
+                    Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget
+                    porta in, lacinia et magna.
+                </p>
 
             </div>
 
-            <footer>
-                <p>© 2024 Diseño y Multimedia. Todos los derechos reservados.</p>
-            </footer>
-
+        </div>
 
     </main>
+
+    <footer>
+
+        <p>
+            Graphel Desarrollo Web, Copyright © 2017
+        </p>
+
+    </footer>
+
 </body>
 
 </html>

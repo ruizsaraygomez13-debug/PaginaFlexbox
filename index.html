@@ -1,66 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>inicio</title>
+    <title>Inicio</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>Diseño y Multimedia</h1>
-        <nav class="menu">
+
+    <header class="menu">
+        <nav>
+
+            <h2>Diseño <span>Multimedia</span></h2>
+
             <ul>
-                <h2>Diseño</h2>
-                <h2>Multimedia</h2>
-                <li><a href="index.html"> Inicio</a></li>
-                <li><a href="pages/nosotros.html"> Nosotros</a></li>
-                <li><a href="pages/servicios.html"> Servicios</a></li>
-                <li><a href="pages/contacto.html"> Contacto</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pages/nosotros.html">Nosotros</a></li>
+                <li><a href="pages/servicios.html">Servicios</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
             </ul>
+
         </nav>
+
         <hr class="linea">
+
     </header>
 
     <main>
-        <div>
-            <img src="./assets/images/cabecera.jpg">
-        <h1>Expertos en tecnología web</h1>
-        <p></p>
+
+        <div class="cabecera">
+
+            <img src="./assets/images/cabecera.jpg" alt="Cabecera">
+
+            <h1>Expertos en tecnología web</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Minima beatae aspernatur alias, commodi molestiae accusantium.
+            </p>
+
         </div>
 
         <div class="suscribete">
-            <ul>
-                <h3>Suscríbete a nuetro boletín</h3>
-                <form class="formulario">
-                    <label for="email">Correo electrónico:</label>
-                    <input type="email"  required><br><br>
-                    <input type="submit" value="Suscribirse">
-                </form>
-            </ul>
-        </div>
 
-        <!-- Imagenes -->
+            <h3>Suscríbete a nuestro boletín</h3>
+
+            <form class="formulario">
+
+                <input type="email" id="email" placeholder="Ingrese el Email..." required>
+
+                <input type="submit" value="Suscribirse">
+
+            </form>
+
+        </div>
 
         <div class="imagenes">
-            <img src="./assets/images/logo_html.png" alt="Imagen 1">
-            <h3> HTML5</h3>
-            <h4></h4>
-            <img src="./assets/images/logo_css.png" alt="Imagen 2">
-            <h3>CSS3</h3>
-            <h4></h4>
-            <img src="./assets/images/logo_brush.png" alt="Imagen 3">
-            <h3>Diseño gráfico</h3>
-            <h4></h4>
+
+            <div>
+
+                <img src="./assets/images/logo_html.png" alt="HTML5">
+
+                <h3>HTML5</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Vivamus mi augue, viverra sit amet ultricies.
+                </p>
+
+            </div>
+
+            <div>
+
+                <img src="./assets/images/logo_css.png" alt="CSS3">
+
+                <h3>CSS3</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Vivamus mi augue, viverra sit amet ultricies.
+                </p>
+
+            </div>
+
+            <div>
+
+                <img src="./assets/images/logo_brush.png" alt="Diseño gráfico">
+
+                <h3>Diseño gráfico</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Vivamus mi augue, viverra sit amet ultricies.
+                </p>
+
+            </div>
+
         </div>
 
-        <div>
-        <footer>
-            <p>© 2024 Diseño y Multimedia. Todos los derechos reservados.</p>
-        </footer>
-        </div>
     </main>
 
+    <footer>
+
+        <p>
+            Graphel Desarrollo Web, Copyright © 2017
+        </p>
+
+    </footer>
+
 </body>
+
 </html>
