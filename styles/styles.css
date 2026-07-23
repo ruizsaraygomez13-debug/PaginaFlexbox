@@ -298,21 +298,21 @@ footer {
 .contacto input[type=text] {
     width: 100%;
     padding: 8px;
-    border: 1px #ccc;
+    border: 1px solid #ccc;
     margin-bottom: 10px;
 }
 
 .contacto input[type=email] {
     width: 100%;
     padding: 8px;
-    border: 1px #ccc;
+    border: 1px solid #ccc;
     margin-bottom: 10px;
 }
 
 .contacto textarea {
     width: 100%;
     padding: 8px;
-    border: 1px #ccc;
+    border: 1px solid #ccc;
     margin-bottom: 10px;
 }
 
@@ -327,7 +327,7 @@ footer {
     background: #cf3d16;
 }
 
-.derecha {
+.derecha-contacto {
     width: 30%;
 }
 
@@ -339,7 +339,7 @@ footer {
 }
 
 .mapa {
-    width: 200px;
-    height: 200px;
+    width: 364px;
+    height: 290px;
 }
 
